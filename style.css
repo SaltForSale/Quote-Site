@@ -5,28 +5,71 @@ html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+
+a {
+  color: #fff;
+  font-style: normal;
+}
+
+.whiteDesc {
+  color: black;
+  background-color: #eeebc9;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.desc {
+  color: white;
+  position: relative;
+  background-color: #302f3a;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6,
+.bgimg-7,
+.bgimg-8,
+.bgimg-9,
+.bgimg-10,
+.bgimg-11,
+.bgimg-12 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("assets/filler.png");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("assets/filler2.png");
+  min-height: 100%;
+}
+
 .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  .bgimg-1 {
-    position: relative;
-    opacity: 0.8;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("bg.png");
-    min-height: 100%;
-  }
-  .whiteDesc {
-    color: black;
-    background-color: #eeebc9;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify;
-  }
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .name {
+  background-color: transparent;
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: white;
+  font-weight: bold;
+}
