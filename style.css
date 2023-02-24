@@ -41,7 +41,7 @@ a {
 .bgimg-11,
 .bgimg-12 {
   position: relative;
-  opacity: 0.75;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,11 +49,29 @@ a {
 }
 
 .bgimg-1 {
-  background-image: url("assets/filler.png");
+  background-image: url("assets/1.jpg");
   min-height: 100%;
 }
+
 .bgimg-2 {
+  background-image: url("assets/2.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("assets/3.jpg");
+  min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("assets/4.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
   background-image: url("assets/filler2.png");
+  min-height: 100%;
+}
+.bgimg-6 {
+  background-image: url("assets/hurts.jpg");
   min-height: 100%;
 }
 
@@ -72,4 +90,21 @@ a {
   letter-spacing: 10px;
   color: white;
   font-weight: bold;
+}
+
+.feat {
+  border-width: 5px;
+  border: solid;
+  border-color: white;
+  background-color: black;
+  margin: 10px;
+  box-shadow: 10px 10px white;
+  color: white;
+  max-width: 20%;
+  z-index: 3;
+  margin: auto;
+}
+
+.accent {
+  opacity:0.1;
 }
