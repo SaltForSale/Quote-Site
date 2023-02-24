@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .bgimg-1 {
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg.png");
+    min-height: 100%;
+  }
+  .whiteDesc {
+    color: black;
+    background-color: #eeebc9;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+  }
